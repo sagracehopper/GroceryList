@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Very Organized Grocery List</title>
+    <style>
+        
+        .outer-container {
+            display: flex;
+            flex-direction: column; 
+            gap: 20px; 
+        }
+
+        
+        .inner-container {
+            display: flex; 
+            gap: 20px; 
+        }
+
+        
+        .pantry-item {
+            background-color: #f2f2f2; 
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px solid #ccc;
+            font-size: 18px;
+            width: 300px; 
+        }
+
+        
+        .canned-box {
+            background-color: #f9f9f9; 
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px solid #ccc;
+            font-size: 18px;
+            width: 300px; 
+        }
+
+        
+        .canned-box h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+       
+        .canned-box ul {
+            list-style-type: disc; 
+            padding-left: 20px; 
+        }
+
+       
+        .dry-goods-box {
+            background-color: #e0f7fa; 
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px solid #ccc;
+            font-size: 18px;
+            width: 300px; 
+        }
+
+       
+        .dry-goods-box h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        
+        .dry-goods-box ul {
+            list-style-type: disc; 
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><u>My Very Organized Grocery List</u></h1>
+
+    <!-- Outer container for both rows -->
+    <div class="outer-container">
+        <!-- Pantry Item Box (on top) -->
+        <div class="pantry-item">Pantry Item</div>
+
+        <!-- Inner container holding both Canned and Dry Goods boxes side by side -->
+        <div class="inner-container">
+            <!-- Canned Box -->
+            <div class="canned-box">
+                <h2>Canned</h2>
+                <ul>
+                    <li>Corn</li>
+                    <li>Tuna</li>
+                    <li>Green Beans</li>
+                    <li>Beans</li>
+                </ul>
+            </div>
+
+            <!-- Dry Goods Box -->
+            <div class="dry-goods-box">
+                <h2>Dry Goods</h2>
+                <ul>
+                    <li>Rice</li>
+                    <li>Lentils</li>
+                    <li>Oats</li>
+                    <li>Pancake Mix</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+        <div class="pantry-item">Freezer Items</div>
+
+    <br>
+
+
+    <!-- Inner container holding both Canned and Dry Goods boxes side by side -->
+    <div class="inner-container">
+        <!-- Canned Box -->
+        <div class="canned-box">
+            <h2>Veggies</h2>
+            <ol>
+                <li>Broccoli</li>
+                <li>Carrots</li>
+                <li>Cauliflowers</li>
+                <li>Bell Peppers</li>
+            </ol>
+            
+        </div>
+
+        <div class="dry-goods-box">
+            <h2>Snacks</h2>
+            <ol>
+                <li>Chicken Nuggets</li>
+                <li>Hot Pockets</li>
+                <li>Fries</li>
+                <li>Tator Tots</li>
+            </ol>
+        </div>
+
+
+</body>
+</html>
